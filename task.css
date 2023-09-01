@@ -4,9 +4,15 @@ body {
 .slider {
   position: relative;
   height: 300px;
-  width: 600px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media(min-width: 600px) {
+  .slider {
+    width: 600px;
+  }
 }
 .slider__items {
   height: 100%;
