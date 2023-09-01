@@ -9,11 +9,6 @@ body {
   margin-right: auto;
 }
 
-@media(min-width: 600px) {
-  .slider {
-    width: 600px;
-  }
-}
 .slider__items {
   height: 100%;
 }
@@ -76,8 +71,8 @@ body {
 }
 
 .slider__dot {
-  width: 7px;
-  height: 7px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background: #000;
   margin-right: 5px;
@@ -90,4 +85,15 @@ body {
 
 .slider__dot:hover {
   background: #fff;
+}
+
+@media(min-width: 600px) {
+  .slider {
+    width: 600px;
+  }
+
+  .slider__dot {
+    width: 7px;
+    height: 7px;
+  }
 }
